@@ -1,0 +1,3 @@
+/mnt/hgfs/E/PROJECTS/IPYNB/vmware/Mnist_Test/cmake-build-debug/CMakeFiles/dcgan.dir
+/mnt/hgfs/E/PROJECTS/IPYNB/vmware/Mnist_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/hgfs/E/PROJECTS/IPYNB/vmware/Mnist_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

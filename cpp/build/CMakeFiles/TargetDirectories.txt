@@ -1,0 +1,3 @@
+/home/kami/Documents/ipynb/build/CMakeFiles/dcgan.dir
+/home/kami/Documents/ipynb/build/CMakeFiles/edit_cache.dir
+/home/kami/Documents/ipynb/build/CMakeFiles/rebuild_cache.dir

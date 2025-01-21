@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kami/Documents/ipynb/dcgan.cpp" "CMakeFiles/dcgan.dir/dcgan.cpp.o" "gcc" "CMakeFiles/dcgan.dir/dcgan.cpp.o.d"
+  "/home/kami/Documents/cpp/lenet5/main01.cpp" "CMakeFiles/dcgan.dir/main01.cpp.o" "gcc" "CMakeFiles/dcgan.dir/main01.cpp.o.d"
   "" "dcgan" "gcc" "CMakeFiles/dcgan.dir/link.d"
   )
 

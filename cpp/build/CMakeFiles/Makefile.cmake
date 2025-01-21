@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/kami/Documents/ipynb/CMakeLists.txt"
+  "/home/kami/Documents/cpp/lenet5/CMakeLists.txt"
   "CMakeFiles/3.31.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeSystem.cmake"
@@ -19,6 +19,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/kami/libs/c++/libtorch/share/cmake/Caffe2/public/utils.cmake"
   "/home/kami/libs/c++/libtorch/share/cmake/Torch/TorchConfig.cmake"
   "/home/kami/libs/c++/libtorch/share/cmake/Torch/TorchConfigVersion.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVConfig.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVModules-release.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVModules.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kami/Documents/ipynb
+CMAKE_SOURCE_DIR = /home/kami/Documents/cpp/lenet5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kami/Documents/ipynb/build
+CMAKE_BINARY_DIR = /home/kami/Documents/cpp/lenet5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/ipynb/build/CMakeFiles /home/kami/Documents/ipynb/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/cpp/lenet5/build/CMakeFiles /home/kami/Documents/cpp/lenet5/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/ipynb/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/cpp/lenet5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ dcgan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/build
 .PHONY : dcgan/fast
 
-dcgan.o: dcgan.cpp.o
-.PHONY : dcgan.o
+main01.o: main01.cpp.o
+.PHONY : main01.o
 
 # target to build an object file
-dcgan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/dcgan.cpp.o
-.PHONY : dcgan.cpp.o
+main01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/main01.cpp.o
+.PHONY : main01.cpp.o
 
-dcgan.i: dcgan.cpp.i
-.PHONY : dcgan.i
+main01.i: main01.cpp.i
+.PHONY : main01.i
 
 # target to preprocess a source file
-dcgan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/dcgan.cpp.i
-.PHONY : dcgan.cpp.i
+main01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/main01.cpp.i
+.PHONY : main01.cpp.i
 
-dcgan.s: dcgan.cpp.s
-.PHONY : dcgan.s
+main01.s: main01.cpp.s
+.PHONY : main01.s
 
 # target to generate assembly for a file
-dcgan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/dcgan.cpp.s
-.PHONY : dcgan.cpp.s
+main01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/main01.cpp.s
+.PHONY : main01.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dcgan"
-	@echo "... dcgan.o"
-	@echo "... dcgan.i"
-	@echo "... dcgan.s"
+	@echo "... main01.o"
+	@echo "... main01.i"
+	@echo "... main01.s"
 .PHONY : help
 
 

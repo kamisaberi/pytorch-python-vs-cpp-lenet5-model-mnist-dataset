@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kami/Documents/ipynb
+CMAKE_SOURCE_DIR = /home/kami/Documents/cpp/lenet5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kami/Documents/ipynb/build
+CMAKE_BINARY_DIR = /home/kami/Documents/cpp/lenet5/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/dcgan.dir/clean
 CMakeFiles/dcgan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dcgan.dir/build.make CMakeFiles/dcgan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kami/Documents/ipynb/build/CMakeFiles --progress-num=1,2 "Built target dcgan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kami/Documents/cpp/lenet5/build/CMakeFiles --progress-num=1,2 "Built target dcgan"
 .PHONY : CMakeFiles/dcgan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dcgan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/ipynb/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/cpp/lenet5/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dcgan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/ipynb/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kami/Documents/cpp/lenet5/build/CMakeFiles 0
 .PHONY : CMakeFiles/dcgan.dir/rule
 
 # Convenience name for target.

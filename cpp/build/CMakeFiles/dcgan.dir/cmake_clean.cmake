@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dcgan.dir/link.d"
-  "CMakeFiles/dcgan.dir/dcgan.cpp.o"
-  "CMakeFiles/dcgan.dir/dcgan.cpp.o.d"
+  "CMakeFiles/dcgan.dir/main01.cpp.o"
+  "CMakeFiles/dcgan.dir/main01.cpp.o.d"
   "dcgan"
   "dcgan.pdb"
 )
